@@ -2,10 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-ajouter-projet',
-  imports: [],
+  standalone: true,
   templateUrl: './ajouter-projet.html',
-  styleUrl: './ajouter-projet.scss',
 })
-export class AjouterProjet {
-
-}
+export class AjouterProjetComponent {}
