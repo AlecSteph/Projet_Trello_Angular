@@ -7,5 +7,5 @@ export const routes: Routes = [
   { path: '', component: ListeProjetsComponent },
   { path: 'projet/:id', component: DetailProjetComponent },
   { path: 'ajouter', component: AjouterProjetComponent },
-  { path: '**', redirectTo: '' } // Redirige vers la liste des projets si l'URL est inconnue
+  { path: '**', redirectTo: '' } 
 ];

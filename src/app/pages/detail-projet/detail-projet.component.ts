@@ -75,13 +75,13 @@ export class DetailProjetComponent implements OnInit {
   getStatusColor(statut: string): string {
     switch (statut) {
       case 'En attente':
-        return '#ff9800'; // Orange
+        return '#ff9800'; 
       case 'En cours':
-        return '#3f51b5'; // Bleu primaire
+        return '#3f51b5'; 
       case 'Terminé':
-        return '#4caf50'; // Vert
+        return '#4caf50'; 
       default:
-        return '#9e9e9e'; // Gris par défaut
+        return '#9e9e9e'; 
     }
   }
 }
